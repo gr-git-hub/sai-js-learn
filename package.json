@@ -1,0 +1,127 @@
+{
+    "name": "javascript-development-environment",
+    "version": "1.0.1",
+    "description": "test of javascript dev environment set-up",
+    "scripts": {
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "whatwg-fetch": "1.0.0"
+    },
+    "devDependencies": {
+      "babel-cli": "6.16.0",
+      "babel-core": "6.17.0",
+      "babel-loader": "6.2.5",
+      "babel-preset-latest": "6.16.0",
+      "babel-register": "6.16.3",
+      "chai": "3.5.0",
+      "chalk": "1.1.3",
+      "cheerio": "0.22.0",
+      "compression": "1.6.2",
+      "cross-env": "3.1.3",
+      "css-loader": "0.25.0",
+      "eslint": "3.8.1",
+      "eslint-plugin-import": "2.0.1",
+      "eslint-watch": "2.1.14",
+      "express": "4.14.0",
+      "extract-text-webpack-plugin": "1.0.1",
+      "html-webpack-plugin": "2.22.0",
+      "jsdom": "9.8.0",
+      "json-schema-faker": "0.3.6",
+      "json-server": "0.8.22",
+      "localtunnel": "1.8.1",
+      "mocha": "3.1.2",
+      "nock": "8.1.0",
+      "npm-run-all": "3.1.1",
+      "nsp": "2.6.2",
+      "numeral": "1.5.3",
+      "open": "0.0.5",
+      "rimraf": "2.5.4",
+      "style-loader": "0.13.1",
+      "webpack": "1.13.2",
+      "webpack-dev-middleware": "1.8.4",
+      "webpack-hot-middleware": "2.13.0",
+      "webpack-md5-hash": "0.0.5"
+    }
+  }
+   @dragthor
+  dragthor commented on Feb 4
+  Thanks. This was helpful while actively going through your PluralSight course.
+   @lordliquid
+  lordliquid commented on Feb 10
+  Thank you for the course and making this easier :+1:
+   @ForkInSpace
+  ForkInSpace commented on Feb 19
+  Good dev-stack and good course Cory! Thanks
+   @FarmerWayne
+  FarmerWayne commented on Mar 11
+  Brilliant Cory. Just the stuff I am wanting to learn. Cheers.
+   @NermienBarakat
+  NermienBarakat commented on Mar 21
+  Thank you.
+   @makaronio
+  makaronio commented on Apr 8
+  Thank you for the course!
+   @omadoyeabraham
+  omadoyeabraham commented on Apr 29
+  Great course Cory, really really great stuff.
+   @zobarov
+  zobarov commented on Apr 30
+  Thank you for your course and configs sharing! very helpfull
+   @UIPhani
+  UIPhani commented on Jun 3
+  Thanks, Cory, you are awesome!
+   @Ambition101
+  Ambition101 commented on Jun 14
+  Thank you, Cory! You're the man!!!!!
+   @dkpradhan
+  dkpradhan commented on Jun 16
+  Thanks Cory .. . Your course is a really helpful for newbies ..
+   @martin-geek
+  martin-geek commented on Jul 7
+  Excellent course. Some of the packages in this file, however, are deprecated. I guess that's inevitable. Are you planning to keep it up to date?
+   @shinokada
+  shinokada commented on Jul 31
+  I hope this file will be updated. e.g. webpack is now v-2.
+   @brinka
+  brinka commented on Sep 4 •  edited 
+  I have installed dependencies manually, so they are up-to-date. I will test it if it works ok.
+  
+  "dependencies": {
+      "whatwg-fetch": "^2.0.3"
+  },
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-core": "^6.26.0",
+      "babel-loader": "^7.1.2",
+      "babel-preset-env": "^1.6.0",
+      "babel-register": "^6.26.0",
+      "chai": "^4.1.2",
+      "chalk": "^2.1.0",
+      "cheerio": "^1.0.0-rc.2",
+      "compression": "^1.7.0",
+      "cross-env": "^5.0.5",
+      "css-loader": "^0.28.7",
+      "eslint": "^4.6.0",
+      "eslint-plugin-import": "^2.7.0",
+      "eslint-watch": "^3.1.2",
+      "express": "^4.15.4",
+      "extract-text-webpack-plugin": "^3.0.0",
+      "html-webpack-plugin": "^2.30.1",
+      "jsdom": "^11.2.0",
+      "json-schema-faker": "^0.4.3",
+      "localtunnel": "^1.8.3",
+      "mocha": "^3.5.0",
+      "nock": "^9.0.14",
+      "npm-run-all": "^4.1.1",
+      "nsp": "^2.7.0",
+      "numeral": "^2.0.6",
+      "open": "0.0.5",
+      "rimraf": "^2.6.1",
+      "style-loader": "^0.18.2",
+      "webpack": "^3.5.5",
+      "webpack-dev-middleware": "^1.12.0",
+      "webpack-hot-middleware": "^2.18.2",
+      "webpack-md5-hash": "0.0.5"
+  }
