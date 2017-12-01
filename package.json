@@ -2,7 +2,10 @@
   "name": "javascript-development-environment",
   "version": "1.0.1",
   "description": "test of javascript dev environment set-up",
-  "scripts": {},
+  "scripts": 
+  {
+    "start": "node buildScripts/srcServer.js"
+  },
   "author": "",
   "license": "MIT",
   "dependencies": {
