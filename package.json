@@ -4,7 +4,8 @@
   "description": "test of javascript dev environment set-up",
   "scripts": 
   {
-    "start": "node buildScripts/srcServer.js"
+    "start": "node buildScripts/srcServer.js",
+    "security-check": "nsp check"
   },
   "author": "",
   "license": "MIT",
