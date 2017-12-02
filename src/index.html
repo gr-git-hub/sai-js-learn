@@ -2,6 +2,12 @@
 <html>
 <html lang = "en">
 <head>
+  <script>
+function hideDiv(divElement)
+{
+    var getAtElement = document.getElementById("viewTasksId").style.display = "none";
+}
+</script>
 <meta charset ="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
@@ -15,6 +21,7 @@ Sai - deduplication service integration view
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- TODO - to load this file later <script src="/src/js/test.js"></script> -->
 </link>
 </head>
 <body>
@@ -79,9 +86,11 @@ Sai - deduplication service integration view
 </fieldset>
 </form>
 </div>
-<div class ="container">
+<button name="hide View Tasks" onclick="hideDiv(viewTasksId)"></button>
+<div class ="container" id ="viewTasksId">
 View All tasks
-</div>
+
+
 <div class ="container">
 <table>
     <tr class ="row">
@@ -106,9 +115,13 @@ View All tasks
     </tr>
   </table>
 </div>
+</div>
 <footer>
 you have added 4 users
+
 </footer>
+
 </body>
+
 
 </html>
