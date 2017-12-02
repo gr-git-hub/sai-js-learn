@@ -3,18 +3,26 @@
 <html lang = "en">
 <head>
 <meta charset ="utf-8">
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
 Sai - deduplication service integration view
 </title>
 <!-- <link rel="stylesheet" type="text/css" href="/src/styles/view1.css" media ="screen">
 </link> -->
 <!-- include w3.css  as  atest -->
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  -->
+<!--- test for bootstrap ver 3.x -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </link>
 </head>
 <body>
 <header>
+<h1>Task service</h1>
+    
+</header>
+<nav>
 
     <ul>
         <li><a href="">Add task</a></li>
@@ -23,29 +31,38 @@ Sai - deduplication service integration view
         <li><a href="#about">View all tasks</a></li>
       </ul>
 
-</header>
-<div>
-  </div>Use-case 1 - Add Task
-  <div>
+</nav>
+
+<div class="container">
+  <span>Search
+
+  </span>
+   <iframe src="https://www.google.com" name ="google_srch_iframe_target">
+  </iframe>
+  </div>
+<div class ="container">
+    Use-case 1.1 - Add Task
+  </div>
+  <div class ="container">
 <form>
 
-<div>
+<div class ="container">
 <label>Task</label>
 <input type="text" required="required" name="task" class="required" placeholder="place holder 1" />
 </div>
-<div>
+<div class ="container">
 <label>TEl</label>
 <input type="tel" required="required" maxlength="10" name="tel" class="required" placeholder="123-456-9999" />
 </div>
-<div>
+<div class ="container">
 <label>email</label>
 <input type="email" required="required" name="emaail" class="required" placeholder="use@email.comm" />
 </div>
-<div>
+<div class ="container">
 <label>Required by</label>
 <input type="date" required="required" name="requiredBy" class="large"  />
 </div>
-<div>
+<div class ="container">
 <label>Category</label>
 <select name="category">
 <option value="personal">Pesonal</option>
@@ -58,11 +75,12 @@ Sai - deduplication service integration view
 </nav>
 </form>
 </div>
-<div>
-2nd section
+<div class ="container">
+View All tasks
 </div>
+<div class ="container">
 <table>
-    <tr>
+    <tr class ="row">
       <th>Task</th>
       <th>Tel no</th> 
       <th>Due date</th>
@@ -83,7 +101,7 @@ Sai - deduplication service integration view
       <td>80</td>
     </tr>
   </table>
-
+</div>
 <footer>
 you have added 4 users
 </footer>
